@@ -1,10 +1,26 @@
 import React from 'react'
 import './Brand.scss'
-
+import { google, slack, atlassian,shopify, dropbox } from './imports'
 const Brand = () => {
   return (
-    <div>Brand</div>
-  )
+    <div className="gpt3__brand section__padding flip-in-hor-bottom" >
+      <div>
+        <img src={google} alt="Google" />
+      </div>  
+      <div>
+        <img src={slack} alt="Slack" />
+      </div>  
+      <div>
+        <img src={atlassian} alt="Atlassian" />
+      </div>
+      <div>
+        <img src={shopify} alt="Shopify" />
+      </div> 
+      <div>
+        <img src={dropbox} alt="Dropbox" />
+      </div> 
+    </div>
+    )
 }
 
 export default Brand
