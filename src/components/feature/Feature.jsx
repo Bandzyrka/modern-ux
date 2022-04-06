@@ -3,7 +3,7 @@ import './Feature.scss'
 
 const Feature = ({ title, text}) => {
   return (
-    <div className="gpt3__features-container__feature">
+    <div data-aos="zoom-in"className="gpt3__features-container__feature">
       <div className="gpt3__features__feature_title">
         <div />
         <h1>{title}</h1>
