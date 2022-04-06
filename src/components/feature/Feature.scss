@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     margin: 1rem;
 }
 .gpt3__features__feature_title{
@@ -37,5 +37,10 @@
         font-size: 16px;
         line-height: 30px;
         color: var(--color-text)
+    }
+}
+@media screen and (max-width: 850px) {
+    .gpt3__features-container__feature{
+        flex-direction: column;
     }
 }
