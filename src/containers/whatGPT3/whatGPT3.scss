@@ -1,0 +1,19 @@
+.gpt3__wgpt3{
+    background: rgb(28,101,143);
+    background: linear-gradient(324deg, rgba(28,101,143,1) 0%, rgba(32,27,48,1) 25%, rgba(30,40,83,1) 80%, rgba(26,162,190,1) 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 3rem;
+}
+.gpt3__wgpt3-heading{
+    display: flex;
+    h1{
+        flex: 2;
+    }
+    p{
+        flex: 1;
+    }
+}
+.gpt3__wgpt3-container{
+    display: flex;
+}
