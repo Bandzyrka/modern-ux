@@ -18,7 +18,7 @@ const App = () => {
       debounceDelay: 50, 
       throttleDelay: 99, 
       offset: 120, 
-      delay: 0, 
+      delay: 200, 
       duration: 1500, 
       easing: 'ease-in-out', 
       once: true, 
