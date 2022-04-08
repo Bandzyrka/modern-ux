@@ -25,6 +25,7 @@
         color: #FFFFFF;
         background: none;
         margin: 0 auto;
+        cursor: pointer;
     }
 }
 .gpt3__footer-content{
@@ -49,6 +50,7 @@
         line-height: 14px;
         color: #FFFFFF;
         margin: 2rem;
+        cursor: pointer;
     }
 }
 .gpt3__footer-content__logo{
@@ -62,6 +64,7 @@
     }
     p{
         margin: 1rem 0 1rem 0;
+        cursor: unset;
     }
 }
 .gpt3__footer-content-container{
@@ -80,5 +83,20 @@
         font-size: 12px;
         line-height: 14px;
         font-feature-settings: 'liga' off;
+    }
+}
+@media screen and (max-width: 800px) {
+    .gpt3__footer{
+        padding: 1rem;  
+        }
+    .gpt3__footer-content{
+        display: unset;
+        flex-direction: unset;
+        align-items: unset;
+        }
+    .gpt3__footer-heading{
+        h1{
+            font-size: 42px;
+        }
     }
 }

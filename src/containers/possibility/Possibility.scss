@@ -55,3 +55,12 @@
         margin-right: 0;
     }    
 }
+@media screen and (max-width: 900px) {
+    .gpt3__posibbility-image{
+        justify-content: center;
+        img{
+            height: 70%;
+            width: 70%;
+        }
+    }    
+}
