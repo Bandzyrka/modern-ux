@@ -2,7 +2,7 @@ import React from 'react'
 import './Article.scss'
 const Article = ({imageUrl, date, title}) => {
   return (
-    <div className="gpt3__article">
+    <div className="gpt3__article" data-aos="zoom-out">
       <div className="gpt3__article-image">
         <img src={imageUrl} alt="blog" />
       </div>

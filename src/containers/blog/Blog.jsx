@@ -9,7 +9,7 @@ const Blog = () => {
       <div className="gpt3__blog-heading">
         <h1 className="gradient__text">A lot is happening, We are blogging about it.</h1>
       </div>
-      <div data-aos="fade-down" className="gpt3__blog-container">
+      <div className="gpt3__blog-container">
         <div className="gpt3__blog-content__groupA">
           <Article imageUrl={blog01} date={date} title={title}/>
         </div>

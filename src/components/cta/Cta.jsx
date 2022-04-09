@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cta.scss'
-
+import {motion} from 'framer-motion'
 const Cta = () => {
   return (
     <div data-aos="flip-up" data-aos-delay="600"className="gpt3__cta section__margin">
@@ -9,7 +9,12 @@ const Cta = () => {
         <h4>Register today & start exploring the endless possiblities.</h4>
       </div>
       <div className="gpt3__cta-btn">
-        <button type="button">Get Started</button>
+        <motion.button 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          type="button">
+              Get Started
+        </motion.button>
       </div>
     </div>
   )

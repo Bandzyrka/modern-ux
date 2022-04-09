@@ -1,13 +1,18 @@
 import React from 'react'
 import './Footer.scss'
 import logo from '../../assets/logo.svg'
-
+import {motion} from 'framer-motion'
 const Footer = () => {
   return (
     <div className="gpt3__footer">
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">Do you want to step in to the future before others</h1>
-        <button type="button">Request Early Access</button>
+        <motion.button 
+        type="button"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}>
+        Request Early Access
+        </motion.button>
         
       <div className="gpt3__footer-content">
         <div className="gpt3__footer-content__logo">

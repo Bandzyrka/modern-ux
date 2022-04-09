@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { RiMenu3Line, RiMenuLine} from 'react-icons/ri'
 import logo from '../../assets/logo.svg'
 import './Navbar.scss'
+import { motion } from "framer-motion"
 
 const Menu = () => (
   <React.Fragment>
@@ -27,7 +28,12 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-sign">
         <p>Sign In</p>
-        <button type='button'>Sign Up</button>
+        <motion.button 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          type='button'>
+            Sign Up
+        </motion.button>
       </div>
       <div className="gpt3__navbar-menu">
        {toggleMenu 
@@ -50,7 +56,12 @@ const Navbar = () => {
               <Menu />
               <div className="gpt3__navbar-menu_container-links-sign">
                 <p>Sign In</p>
-                <button type='button'>Sign Up</button>
+                <motion.button 
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  type='button'>
+                    Sign Up
+                </motion.button>
               </div>
             </div>
           </div>
