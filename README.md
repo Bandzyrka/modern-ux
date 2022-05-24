@@ -6,9 +6,9 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.postimg.cc/sfNkxq38/obraz-2022-05-24-231320767.png" alt="project-screenshot" width="1000" height="800/">
+<img src="https://i.postimg.cc/sfNkxq38/obraz-2022-05-24-231320767.png" alt="project-screenshot" width="1200" height="800/">
 
-<img src="https://i.postimg.cc/mrrxts1v/obraz-2022-05-24-231619981.png" alt="project-screenshot" width="1000" height="800/">
+<img src="https://i.postimg.cc/mrrxts1v/obraz-2022-05-24-231619981.png" alt="project-screenshot" width="1200" height="800/">
 
   
   
