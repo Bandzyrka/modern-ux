@@ -3,7 +3,6 @@ import { RiMenu3Line, RiMenuLine} from 'react-icons/ri'
 import logo from '../../assets/logo.svg'
 import './Navbar.scss'
 import { motion } from "framer-motion"
-
 const Menu = () => (
   <React.Fragment>
     <p><a href="#home">Home</a></p>

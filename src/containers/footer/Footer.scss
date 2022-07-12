@@ -85,11 +85,15 @@
         font-feature-settings: 'liga' off;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
     .gpt3__footer{
         padding: 1rem;  
         }
-    .gpt3__footer-content{
+    .gpt3__footer-content
+    {
+        flex-direction: column;
+    }
+    .gpt3__footer-content-container{
         display: unset;
         flex-direction: unset;
         align-items: unset;
